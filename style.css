@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background: #f0f2f5;
+}
+header .main{
+    position: absolute;
+    top: 25%;
+    width: 70%;
+    gap: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+header .main .left{
+    flex: 1;
+    justify-content: left;
+}
+header .main .right{
+    flex: 1;
+
+}
+header .main .left p{
+    font-size: 27px;
+    font-weight: 400;
+    margin-top: -16px;
+    margin-left: 16px;
+    letter-spacing: 0.2PX;
+    font-family: sans-serif;
+}
+header .main .left h1{
+    height: 95px;
+    width: 300px;
+    color: #1877f2;
+    font-family: sans-serif;
+    margin-top: 1px;
+    font-size: 60px;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+header .main .right form{
+    width: 400px;
+    background:  white;
+    border-radius: 8px;
+    margin-top: -65px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 20px 0 35px;
+    margin-left: 60px;
+
+}
+.form-body{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 0 -10px; 
+    gap: 15px ;
+    margin-top: -2px;
+}
+form input{
+    flex: 1;
+    border: 1px solid #dddfe2;
+    font-size: 17px; 
+    padding: 14px 16px;
+    border-radius: 5px;
+    color: #1d2129;
+    outline-color: #8AB7EF;
+    margin-left: 17px;
+    margin-right: 17px;
+    height: 300px;
+    width: 365px;
+}
+.login{
+    background-color: #1877f2;
+    font-size: 20px;
+    color: #fff;
+    line-height: 48px;
+    padding: 0 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    width: 365px;
+    margin-left: 18px;
+}
+.forget{
+    text-align: center;
+    color: #1877f2;
+    font-size: 14px;
+    margin: 5px 0;
+    text-transform: capitalize;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+}
+.forget:hover{
+     text-decoration: underline;
+}
+hr{
+    background: rgba(128, 128, 128, 0.349);
+    height: 0.2px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.create{
+    background-color: #42b72a;
+    font-size: 17px;
+    color: #fff;
+    width: 192px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    line-height: 48px;
+    margin: auto;
+    cursor: pointer;
+    padding: 0 14px;
+    margin-top: 8px;
+}
+.footer{
+    margin-top: 28px;
+    margin-left: 110px;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.footer span{
+    font-weight: bold;
+}
