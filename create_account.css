@@ -1,0 +1,167 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    background: #f0f2f5;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: 1px solid rgba(204, 200, 200, 0.7);
+    background: #fff;
+    border-radius: 6px;
+  }
+ .container hr {
+  border: 0.1px solid;
+  color: rgba(204, 200, 200, 0.7);
+  width: 108%;
+  margin-left: -16px;
+  margin-top: -5px;
+  }
+  button {
+    background-color: rgb(8, 170, 65);
+    color: white;
+    padding: 7px;
+    border: none;
+    cursor: pointer;
+    width: 49%;
+    border-radius: 6px;
+    margin-left: 110px;
+    margin-top: -4px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+  }
+  .container {
+    padding: 16px;
+    position: absolute;
+    border-radius: 6px;
+    width: 430px;
+    margin-left: 490px;
+    margin-top: -23px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+    height: 580px;
+    
+  }
+  .img-wrap img{
+    width: 250px;
+    background: none;
+    margin-left: 41.5%;
+    margin-top: -20px;
+  }
+  .container h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    margin-top: -6px;
+  }
+  .container p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: grey;
+    margin-top: -15px;
+  }
+  .container .birthday p{
+    margin-left: -355px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: grey;
+  }
+   .gender p{
+    text-align: left;
+    margin-top: 14px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .gender-box{
+    border: 1px solid rgba(204, 200, 200, 0.7);
+    border-radius: 6px;
+    display: block;
+    padding: 8px;
+    font-size: 16px;
+  }
+.navigation{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 15px;
+  }
+  .navigation a{
+    color: #1877f2;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+  }
+.form{
+  display: flex;
+  gap: 10px;
+}
+.email{
+  margin-top: 10px;
+}
+.password{
+  margin-top: -18px;
+}
+.birthday{
+  padding: 0 -5px;
+}
+.birthday .date{
+display: flex;
+justify-content: space-between;
+margin-top: 5px;
+}
+.birthday .date select{
+  padding: 7px;
+  width: 31.5%;
+  font-size: 16px;
+  border: 1px solid rgba(204, 200, 200, 0.7);
+  border-radius: 6px;
+}
+.gender{
+  padding: 0 -5px;
+}
+.gender .person{
+  display: flex;
+  justify-content: space-between; 
+  margin-top: 5px;
+}
+.gender .person>div{
+  font-size: 16px;
+  border: 1px solid rgba(204, 200, 200, 0.7);
+  border-radius: 6px;
+  padding: 7px;
+  display: flex;
+  gap: 15px;
+  width: 31.5%;
+}
+ #male{
+  margin-left: 45px;
+}
+#female{
+  margin-left: 26px;
+}
+#custom{
+  margin-left: 25px;
+}
+.content{
+  padding: 15px;
+}
+.p1 p{
+  text-align: left;
+  margin-left: -10px;
+  font-size: 11px;
+  font-family: sans-serif;
+}
+.p2 p{
+  text-align: left;
+  margin-top: 10px;
+  margin-left: -10px;
+  font-size: 11px;
+  font-family: sans-serif;
+}
