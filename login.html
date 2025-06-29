@@ -1,41 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Log into Facebook</title>
+    <title>Log Into Facebook</title>
+    <link rel="icon" type="image/icon" href="Facebook_Logo_2023.png">
+    <link rel="stylesheet" type="text/css" href="login.css">
 </head>
+
 <body>
-    <div class="main-container">
-        <div class="heading">
-            <h1>facebook</h1>
+    <div class="main">
+        <div class="logo">
+            <img src="Facebook_logo.svg" alt="Facebook">
         </div>
-        <div class="login-container">
-            <div class="login-heading">
-                <h2>Log Into Facebook</h2>
-            </div>
-            <div class="Uinput-box">
-                <div class="finput-box">
-                    <input type="varchar" name="input-box" placeholder="Email or phone number" required>
-                </div>
-                <div class="linput-box">
-                    <input type="password" name="password" placeholder="Password" required>
-                </div>
-            </div>
-            <div class="login-button">
-                <button value="login">Log In</button>
-            </div>
-            <div class="forget-account">
-                <a href="#">Forget account?</a>
-            </div>
-            <div class="divider">
-                <p>Or</p>
-            </div>
-            <div class="create_new_account-container">
-                <a href="create_account.html"><button value="cn-account">Create new account</button></a>
-            </div>
+        <div class="container">
+            <span class="login">Log Into Facebook</span>
+            <input type="varchar" placeholder=" Email or phone number" required>
+            <input type="password" placeholder="password" required>
+            <button class="login-btn">Log In</button>
+            <a href="forgot.html">Forgot account?</a>
+            <div class="or">or</div>
+            <button class="create_account"><a href="create_account.html">Create new account</a></button>
         </div>
-        
-    </div>
+        </div>
+        <div class="footer">Meta © 2025</div>
+    
 </body>
+
 </html>
