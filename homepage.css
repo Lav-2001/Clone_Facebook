@@ -165,7 +165,7 @@ cursor: pointer;
   margin: 8px 15px 8px 0;
 
 }
-
+/*------------center---------*/
 .main .center{
   width: 50%;
   height: auto;
@@ -530,8 +530,6 @@ cursor: pointer;
 
 }
 
-
-
 /*--------------------right------------------*/
 .main .right{
   width:25%;
@@ -655,5 +653,3 @@ cursor: pointer;
   cursor: pointer;
 
 }
-
-
